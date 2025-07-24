@@ -11,4 +11,5 @@ export const senderOptions = [
   { value: "info@forzitek.io", label: "info@forzitek.io" },
   { value: "info@grimbix.io", label: "info@grimbix.io" },
   { value: "info@mercantix.io", label: "info@mercantix.io" },
+  { value: "info@metriccode.io", label: "info@metriccode.io" },
 ];

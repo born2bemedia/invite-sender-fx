@@ -56,6 +56,10 @@ export default function Home() {
         apiAddress = "/api/send";
       }
 
+      if (values.sender == "info@metriccode.io") {
+        apiAddress = "/api/send-email-metriccode";
+      }
+
       const response = await fetch(apiAddress, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
