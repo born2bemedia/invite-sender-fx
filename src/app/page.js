@@ -60,6 +60,10 @@ export default function Home() {
         apiAddress = "/api/send-email-metriccode";
       }
 
+      if (values.sender == "info@tanzora.io") {
+        apiAddress = "/api/send-email-tanzora";
+      }
+
       const response = await fetch(apiAddress, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
